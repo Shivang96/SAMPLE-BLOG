@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Material-Card.css">
+    <link rel="stylesheet" href="assets/css/Mockup-iPhone-6.css">
+    <link rel="stylesheet" href="assets/css/Mockup-MacBook-Pro.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+     <link rel="stylesheet" href="assets/css/Hero-Technology.css">
+    <link rel="stylesheet" href="assets/css/Material-Card-1.css">
+    <link rel="stylesheet" href="assets/css/Material-Card-2.css">
+    <link rel="stylesheet" href="assets/css/Material-Card-3.css">
+    <link rel="stylesheet" href="assets/css/Material-Card-4.css">
+    <link rel="stylesheet" href="assets/css/Material-Card-5.css">
+    <style type="text/css">
+    
+   .flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	border: 1px solid #ccc;
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front1, .back {
+	width: 100%;
+	height: 427px;
+}
+.flip-container, .front2, .back {
+	width: 100%;
+	height: 427px;
+}
+.flip-container, .front3, .back {
+	width: 100%;
+	height: 427px;
+}
+.flip-container, .front4, .back {
+	width: 100%;
+	height: 427px;
+}
+.flip-container, .front5, .back {
+	width: 100%;
+	height: 427px;
+}
+.flip-container, .front6, .back {
+	width: 100%;
+	height: 427px;
+}
+.flip-container, .front7, .back {
+	width: 100%;
+	height: 427px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front1, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front2, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front3, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front4, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front5, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front6, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front7, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.front1 {
+	background: url(assets/img/suffer.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+.front2 {
+	background: url(assets/img/jhute_dost.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+.front3 {
+	background: url(assets/img/one_lesson.png) 0 0 no-repeat;
+	z-index: 2;
+}
+.front4 {
+	background: url(assets/img/time.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+.front5 {
+	background: url(assets/img/lost.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+.front6 {
+	background: url(assets/img/silence.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+.front7 {
+	background: url(assets/img/new.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front1 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.front2 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.front3 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.front4 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.front5 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.front6 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.front7 .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+.back-logo1 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+.back-logo2 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+.back-logo3 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+.back-logo4 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+.back-logo5 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+.back-logo6 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+.back-logo7 {
+	position: absolute;
+	top: 40px;
+	left: 90px;
+	width: 160px;
+	height: 117px;
+	background: url(assets/img/logo.png) 0 0 no-repeat;
+}
+
+.back-title {
+	font-weight: bold;
+	color: #00304a;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+	font-family: Courier;
+	font-size: 2em;
+}
+
+.back p {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  font-family: arial;
+  line-height: 2em;
+}
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-default  custom-header">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">SHIVANG <span> GARG </span> </a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right links">
+                        <li role="presentation"><a href="#">Blogspot</a></li>
+                        <li role="presentation"><a href="CV.pdf" target="_blank"> Resume </a></li>
+                        <li role="presentation"><a href="#phone">Contact </a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+    	<div class="col-md-12" id="first">
+        <div class="jumbotron hero-technology">
+        </div>
+    </div>
+    </div>
+    
+    <div class="container">
+    	<hr>
+        <div style="padding-bottom: 40px; padding-top: 20px;">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="text-center"><b>Poems Description </b></h2></div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4"  style="padding-top: 10px;">
+                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front1">
+					      <span class="name">SUFFER (सफर)</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo1"></div>
+						    <div class="back-title">SUFFER</div>
+						      <p>We all are aware of life that it have many up and downs, sometimes situation go according to us and sometimes situations are like we have never thought of that imaginary types this poem is about our .<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/07/suffersafar.html" target="_blank">READ FULL POEM</a></p>
+
+					    </div>
+					</div>
+				</div>
+                </div>
+                <div class="col-md-4 col-sm-4" style="padding-top: 10px;">
+                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front2">
+					      <span class="name">JHUTE DOST</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo2"></div>
+						    <div class="back-title">JHUTE DOST</div>
+						      <p>As we know the most important thing of our life is friendship. And we are given the power to select best of those people whom we can say that they are our friends.<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/07/jhute-dost.html" target="_blank">READ FULL POEM</a></p>
+					    </div>
+					</div>
+				</div>
+                </div>
+                 <div class="col-md-4 col-sm-4"  style="padding-top: 10px;">
+                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front3">
+					      <span class="name">एक सीख़</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo3"></div>
+						    <div class="back-title">एक सीख़</div>
+						      <p>As is this big world we meet with thousands and lakhs of people but we cannot remember all of them but sometime we meet someone whom we cannot forget at all may be that can be short meeting but.<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/09/kuch-aate-hkuch-log-jaate-h-kuch.html" target="_blank">READ FULL POEM</a></p>
+					    </div>
+					</div>
+				</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row" style="padding-top: 30px">
+                <div class="col-md-4 col-sm-4"  style="padding-top: 10px;">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front4">
+					      <span class="name">TIME (समय)</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo4"></div>
+						    <div class="back-title">TIME (समय)</div>
+						      <p>As we know time is the only thing which we cannot catch up and the one who cought is successfull at present, we know time never come back so enjoy your today so that tommorow you wont regret.<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/09/time.html" target="_blank">READ FULL POEM</a></p>
+					    </div>
+					</div>
+				</div>
+                </div>
+                <div class="col-md-4 col-sm-4"  style="padding-top: 10px;">
+                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front5">
+					      <span class="name">खोई यादेँ</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo5"></div>
+						    <div class="back-title">खोई यादेँ (खोए पल)</div>
+						      <p>We know the world is like a puppet show, we are only the actors and actress over here and we cannot decline the fact that the one who takes birth have to leave after playing his/her role and thats the bitter.<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/09/jab-koi-khota-hai-tho-bahut-dard-hota.html" target="_blank">READ FULL POEM</a></p>
+					    </div>
+					</div>
+				</div>
+                </div>
+                 <div class="col-md-4 col-sm-4"  style="padding-top: 10px;">
+                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front6">
+					      <span class="name">ख़ामोशी</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo6"></div>
+						    <div class="back-title">ख़ामोशी</div>
+						      <p>Silence speaks louder then words. The one who knows you can read your silence and the one who pretends to know you cannot read even your words. So, be Silent it provides positivity in life.<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/12/khamoshi.html" target="_blank">READ FULL POEM</a></p>
+					    </div>
+					</div>
+				</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row" style="padding-top: 30px;">
+            	<div class="col-sm-4 col-md-4 col-md-offset-4 col-sm-offset-4"  style="padding-top: 10px;">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+					    <div class="front7">
+					      <span class="name">NEW YEAR</span>
+					    </div>
+					    <div class="back">
+						    <div class="back-logo7"></div>
+						    <div class="back-title">NEW YEAR</div>
+						      <p>The New year not just a New year but its a year which gives us another opportunity to restart our life and to leave all sadness back and make our life more beautiful and colorful.<br><a class="bg-success" href="https://2496sk.blogspot.in/2017/12/happy-new-year.html" target="_blank">READ FULL POEM</a></p>
+					    </div>
+					</div>
+				</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-md-12">
+                <footer id="phone">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 footer-navigation">
+                            <h3><a href="#">SHIVANG <span> GARG </span></a></h3>
+                            <p class="company-name">SHIVANG GARG © 2018 </p>
+                        </div>
+                        <div class="col-md-4 col-sm-6 footer-contacts">
+                            <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                                <p><span class="new-line-span">Garg Nivas Raja Garden </span> Baheri, Bareilly<br> 243201  U.P.</p>
+                            </div>
+                            <div><i class="fa fa-phone footer-contacts-icon"></i>
+                                <p class="footer-center-info email text-left"> +91 9808339039</p>
+                            </div>
+                            <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                                <p> <a href="#" target="_blank">2496sg@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-md-4 footer-about">
+                            <h4>About the Blog</h4>
+                            <p> This Blog includes the creative thinking, poems with full of emotions and inside words, Drawing and beautiful art.</p>
+                            <div class="social-links social-icons"><a href="https://www.facebook.com/shivang96.cool" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/in/shivang-garg-871aa5147/" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://github.com/Shivang96"
+                                target="_blank"><i class="fa fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
